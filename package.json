@@ -11,14 +11,16 @@
   "keywords": ["civic", "grievance", "ai", "ml"],
   "author": "",
   "license": "MIT",
+  {
   "dependencies": {
-    "next": "latest", 
-    "react": "latest",
-    "react-dom": "latest"
+    "next": "15.x.x", 
+    "react": "19.x.x",
+    "react-dom": "19.x.x"
   },
   "devDependencies": {
     "concurrently": "^8.2.2"
   }
 }
+
 
 
