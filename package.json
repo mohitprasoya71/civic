@@ -6,21 +6,19 @@
     "dev": "concurrently \"npm run dev:frontend\" \"npm run dev:backend\"",
     "dev:frontend": "cd frontend && npm run dev",
     "dev:backend": "cd backend && npm run dev",
+    "build": "cd frontend && npm run build",
+    "start": "cd frontend && npm run start",
     "install:all": "npm install && cd frontend && npm install && cd ../backend && npm install"
   },
   "keywords": ["civic", "grievance", "ai", "ml"],
   "author": "",
   "license": "MIT",
-  {
   "dependencies": {
-    "next": "15.x.x", 
-    "react": "19.x.x",
-    "react-dom": "19.x.x"
+    "next": "^15.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
   },
   "devDependencies": {
     "concurrently": "^8.2.2"
   }
 }
-
-
-
